@@ -8,10 +8,11 @@ const app = express();
 const port = 3000;
 
 const pool = mysql.createPool({
-    host: 'localhost',
-    user: 'root',
-    password: 'root@123',
-    database: 'mysql',
+    host: 'b9gp9hhvp1doyw8dhare-mysql.services.clever-cloud.com',
+    user: 'u8ls8buzz3rg3han',
+    password: 'TvKNrpiH5QZdRBykr9ce',
+    database: 'b9gp9hhvp1doyw8dhare',
+    port:3306,
     waitForConnections: true,
     connectionLimit: 10,
     queueLimit: 0
